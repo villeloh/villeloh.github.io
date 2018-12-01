@@ -16,10 +16,10 @@ const Texts = {
               <p>Etsin tällä hetkellä työpaikkaa harjoittelua varten (toki pidemmäksikin aikaa, 
               mikäli sattuu kunnolla natsaamaan).</p>
               <br></br>
-              <p>Yhteydenotot mieluiten LinkedInin kautta. Ideaalinen työpaikkani olisi VR-/AR-painotteinen, 
-              mutta huomioin kaikki kiinnostavat tarjoukset.</p>
+              <p>Yhteydenotot mieluiten <a href="https://www.linkedin.com/in/ville-lohkovuori/" target="_blank" rel="noopener noreferrer">LinkedInin</a> kautta. S.postini on villeloh[at]metropolia.fi. 
+              Ideaalinen työpaikkani olisi VR-/AR-painotteinen, mutta huomioin kaikki kiinnostavat tarjoukset.</p>
               <br></br>
-              <p>Tässä linkki Github-profiiliini sekä hieman listaa teknologioista, joihin olen tutustunut tähän mennessä:</p>
+              <p>Tässä linkki <a href="https://github.com/villeloh" target="_blank" rel="noopener noreferrer">Github-profiiliini</a> sekä hieman listaa teknologioista, joihin olen tutustunut tähän mennessä:</p>
             </div>,
     body: new Map(
       [
@@ -117,10 +117,10 @@ const Texts = {
               <p>I'm currently on the lookout for a position in a company for my work placement 
               (not opposed to a longer period if it is a good match).</p>
               <br></br>
-              <p>I prefer LinkedIn as a contact channel. My ideal job would be in the VR/AR space, 
-              but any offers that pique my interest will be considered.</p>
+              <p>I prefer <a href="https://www.linkedin.com/in/ville-lohkovuori/" target="_blank" rel="noopener noreferrer">LinkedIn</a> as a contact channel. My email is 
+              villeloh[at]metropolia.fi. My ideal job would be in the VR/AR space, but any offers that pique my interest will be considered.</p>
               <br></br>
-              <p>Without further ado, here is a link to my Github profile, and here are some of the technologies that I've studied so far:</p>
+              <p>Here is a link to my <a href="https://github.com/villeloh" target="_blank" rel="noopener noreferrer">Github profile</a>, and here are some of the technologies that I've studied so far:</p>
             </div>,
     body: new Map(
       [

@@ -13,6 +13,11 @@ body {
   height: 100%;
 }
 
+a {
+
+  color: rgb(8, 82, 241);
+}
+
 .App {
   text-align: left;
   background-color: transparent;
