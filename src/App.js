@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import FlagHolder from './components/FlagHolder';
 import IntroBox from './components/IntroBox';
 import ItemContainer from './components/ItemContainer';
 import Footer from './components/Footer';
@@ -51,8 +50,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <IntroBox texts={this.state.texts.intro} />
-          <FlagHolder toggleLanguage={this._toggleLanguage} languageEnum={this.LANGUAGE} />
+          <IntroBox texts={this.state.texts.intro} toggleLanguage={this._toggleLanguage} languageEnum={this.LANGUAGE} />
         </div>
         <ItemContainer textMap={this.state.texts.body} toggleItemVisibility={this._toggleInfoItemVisibility} />
         <Footer />

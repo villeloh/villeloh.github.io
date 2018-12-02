@@ -29,8 +29,6 @@ a {
 
   background-color: transparent;
   display: flex;
-  flex-direction: column;
-  align-items: left;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(59, 151, 236);
@@ -42,23 +40,23 @@ a {
 .flag-holder {
 
 	background-color: rgb(8, 82, 241);
-	padding: 0.2rem;
-	width: 10.0rem;
-	height: 3.2rem;
+	padding: 0.2%;
+	width: 12%;
+	height: auto;
 	justify-content: center;
 	align-items: center;
   display: flex;
 	position: absolute;
-	top: 2.8rem;
-  right: 6.6rem;
+	top: 3%;
+  right: 1%;
   border-radius: 0.5rem;
 }
 
 .flag-img {
 
-	width: 4.21875rem;
-	height: 2.34375rem;
-	margin: 0.4rem;
+	width: 40%;
+	height: 80%;
+	margin: 4%;
 }
 
 .flag-img:hover {
@@ -73,11 +71,18 @@ a {
   padding-top: 1.3rem;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .item-list {
 
+  width: 80%;
   list-style-type: none;
+}
+
+.item-list li {
+  display: flex;
+  justify-content: center;
 }
 
 .info-item {
@@ -86,11 +91,11 @@ a {
   background-color: black;
   opacity: 0.86;
   font-size: 1rem;
-  margin: 2.2rem;
+  margin: 1.4rem;
   border: 3px solid rgb(17, 83, 226);
   border-radius: 3px;
   padding: 0.5rem;
-  width: 70rem;
+  width: 90%;
 }
 
 .info-item > header {
@@ -170,12 +175,16 @@ a {
   display: flex;
   align-items: center;
   margin: 0.0rem;
+  width: 85%;
+  min-width: 400px;
+  position: relative;
 }
 
 .intro-text-area {
 
   margin: 2.0rem;
-  max-width: 40%;
+  width: 40%;
+  min-width: 180px;
 }
 
 .face-img-container {
@@ -196,7 +205,7 @@ a {
 .text-area {
 
   margin: 0.9rem;
-  max-width: 75%;
+  max-width: 85%;
   line-height: 1.5rem;
 }
 
