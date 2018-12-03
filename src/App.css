@@ -23,6 +23,7 @@ a {
   background-color: transparent;
   height: 100%;
   font-family: "Arial", Times, serif;
+  width: 100%;
 }
 
 .App-header {
@@ -32,9 +33,10 @@ a {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(59, 151, 236);
-  margin: 6.0rem;
   margin-top: 2.0rem;
   margin-bottom: 0.0rem;
+  width: 100%;
+  position: relative;
 }
 
 .flag-holder {
@@ -177,13 +179,15 @@ a {
   display: flex;
   align-items: center;
   margin: 0.0rem;
-  width: 85%;
-  min-width: 200px;
+  margin-left: 5%;
+  margin-right: 5%;
+  min-width: 350px;
   position: relative;
 }
 
 .intro-text-area {
 
+  line-height: 1.5rem;
   margin: 2.0rem;
   width: 40%;
   min-width: 180px;
@@ -193,18 +197,20 @@ a {
 
   border-radius: 5px;
   border: 2px solid rgb(19, 54, 172);
-  padding: 2%;
+  padding: 1rem;
   background-color: black;
   display: flex;
   justify-content: center;
   position: relative;
   width: 7%;
-  min-width: 70px;
+  min-width: 80px;
   height: auto;
 }
 
 .face-img {
 
+  width: 5rem;
+  height: 7rem;
   border-radius: 5px;
 }
 
