@@ -13,11 +13,17 @@ const Texts = {
               <br></br>
               <p>olen <strong>Ville Lohkovuori</strong>, 3. vuoden it-alan opiskelija Metropolia AMK:ssa, Mobile Solutions -linjalla.</p>
               <br></br>
-              <p>Etsin tällä hetkellä työpaikkaa harjoittelua varten (toki pidemmäksikin aikaa, 
-              mikäli sattuu kunnolla natsaamaan).</p>
+              <p>Etsin tällä hetkellä työpaikkaa harjoittelua varten. Työ olisi mieluiten kokopäiväinen. Olen harjoitteluja, 
+              innovaatioprojektia ja lopputyötä vaille valmis insinööri; kaikki voitaisiin tehdä pikatahtiin samassa firmassa.</p>
               <br></br>
-              <p>Yhteydenotot mieluiten <a href="https://www.linkedin.com/in/ville-lohkovuori/" target="_blank" rel="noopener noreferrer">LinkedInin</a> kautta. S.postini on villeloh[at]metropolia.fi. 
-              Ideaalinen työpaikkani olisi VR-/AR-painotteinen, mutta huomioin kaikki kiinnostavat tarjoukset.</p>
+              <p>Ideaalinen työmaani olisi mobiili-/VR-/AR-painotteinen (olen julkaissut kaverini kanssa mobiili-AR-pelin Google Play Storessa), 
+              mutta huomioin kaikki kiinnostavat tarjoukset.</p>
+              <br></br>
+              <p>Erityisvahvuuteni ovat luova ajattelu sekä erittäin vahva englannin ja suomen kielen osaaminen; 
+              opiskelin englannin kielen kääntäjäksi kahden vuoden ajan Turun yliopistossa (2010-2012). 
+              Tämän sivun tekstit ovat hieman tavallista pidempiä juuri tämän taidon esittelytarkoituksessa.</p>
+              <br></br>
+              <p>Yhteydenotot mieluiten <a href="https://www.linkedin.com/in/ville-lohkovuori/" target="_blank" rel="noopener noreferrer">LinkedInin</a> kautta. S.postini on villeloh[at]metropolia.fi.</p>
               <br></br>
               <p>Tässä linkki <a href="https://github.com/villeloh" target="_blank" rel="noopener noreferrer">Github-profiiliini</a> sekä hieman listaa teknologioista, joihin olen tutustunut tähän mennessä:</p>
             </div>,
@@ -27,11 +33,10 @@ const Texts = {
         <p>Katson Android Studion ydinosaamisekseni; ymmärrän useimmat konseptit (Activity, Fragment, Intent, Context, MVP, etc) 
         ja osaan hyödyntää niitä sovellusten rakentamisessa. Kotliniin tuli tutustuttua nyt syyslukukaudella, ja 
         pidän siitä ohjelmointikielenä ehkä eniten tähän mennessä. Teimme kahden miehen tiiminä mobiili-AR-pelin 
-        Googlen ARCore -kirjaston avulla.</p>
+        Googlen ARCore -kirjaston avulla, ja julkaisimme sen Google Play Storessa (nimellä AR Invaders).</p>
         <br></br>
-        <p>Pelin koululle palautettu versio on testattavissa täällä omassa 
-        githubissani ('AR Invaders'); olemme jatkaneet kehitystä ja esittelemme (epävirallisesti) 'upgreidattua' versiota 
-        Pre-Slush XR Match Up 2018 -tapahtumassa joulukuun 3. päivänä.</p>
+        <p>Pelin koululle palautettu versio on nähtävissä täällä omassa githubissani ('AR Invaders'). 
+          Olemme sittemmin jatkaneet kehitystä ja parantaneet koodia useilla eri osa-alueilla.</p>
         </div>, false]],
         ['js', ['Javascript, Node.js (+Express.js), React, React Native', <div className="text-area">
         <p>Vaikken vielä ihan tituleeraisikaan itseäni fullstack-devaajaksi, olen tutustunut jo siinä määrin 
@@ -43,16 +48,15 @@ const Texts = {
         sehän ei hirveästi eroa normi-Reactista ellei käytä native-juttuja, mutta ajattelin kuitenkin mainita.</p>
         </div>, false]],
         ['java_REST', ['Java (8/9), JavaEE, REST, API:en käyttö / rakentaminen', <div className="text-area">
-        <p>Rakensin viime vuonna (2017) JavaEE:llä suht hirviömäisen backendin, ja on sen jälkeen tullut luettua 
+        <p>Vuonna 2017 rakensin JavaEE:llä suht hirviömäisen backendin, ja on sen jälkeen tullut luettua 
         pari kirjaa Java-ohjelmoinnista ('Effective Java', 'Java Concurrency in Practice'). API:en käyttäminenhän on sinänsä suht 
         triviaalia, mutta ymmärrän sen verran REST:in periaatteista, että myös niiden suunnittelu ja 
         rakentaminen onnistuu jo jossain määrin. Akilleen kantapää ovat tällä erää turvallisuusasiat, 
         joihin ei ole vielä ollut aikaa syvemmin tutustua.</p>
         </div>, false]],
         ['sparql', ['SPAQRL / SQL', <div className="text-area">
-        <p>Tällä hetkellä työskentelen yritykselle tehtävän kouluprojektin parissa; 
-        kyseessä on SPAQRL-tietokantakieltä kuvahaussa hyödyntävä mobiilisovellus. SPARQL eroaa aika lailla 
-        perus-SQL:stä, mutta sekin on vielä jonkin verran muistissa aiemmista projekteista.</p>
+        <p>Vuoden 2018 syksyllä teimme yritykselle kouluprojektina SPAQRL-tietokantakieltä kuvahaussa hyödyntävän mobiilisovelluksen. 
+          SPARQL eroaa aika lailla perus-SQL:stä, mutta sekin on vielä jonkin verran muistissa aiemmista projekteista.</p>
         </div>, false]],
         ['swift_Python', ['Python & machine learning (Keras); XCode + Swift', <div className="text-area">
         <p>Teimme vuoden 2018 keväällä koulussa iOS-mobiilisovelluksen, jossa hyödynnettiin 
@@ -82,7 +86,7 @@ const Texts = {
         synnyttämä palava intohimo, joka saa oikein odottamaan töihin pääsyä. VR-/AR-peliä voikin pitää 
         meikäläisen stereotyyppisenä unelmaprojektina.</p>
         </div>, false]],
-        ['otherStrengths', ['Muut vahvuudet: analyyttisyys, kirjoitustaito, englanti, fyysinen kunto', <div className="text-area">
+        ['otherStrengths', ['Muut vahvuudet: englanti, analyyttisyys, kirjoitustaito, fyysinen kunto', <div className="text-area">
         <p>Kuten tältä sivultakin ilmenee, osaan ilmaista itseäni selkeästi ja loogisesti suomeksi ja englanniksi, 
         ilman kirjoitusvirheitä. Opiskelin Turun yliopistossa englannin kielen kääntämistä kahden vuoden ajan (2010-2012), 
         ja olen harrastanut kirjoittamista (ja lukemista) alakoulusta saakka.</p>
@@ -114,11 +118,18 @@ const Texts = {
               <br></br>
               <p>I'm <strong>Ville Lohkovuori</strong>, a 3rd year it-student from Metropolia UAS, on the Mobile Solutions track.</p>
               <br></br>
-              <p>I'm currently on the lookout for a position in a company for my work placement 
-              (not opposed to a longer period if it is a good match).</p>
+              <p>I'm currently on the lookout for an internship. Ideally, the job would be full-time; 
+              I only need the internship, innovation project and thesis to graduate as an Engineer.
+              These could all be done in short order at the same company.</p>
               <br></br>
-              <p>I prefer <a href="https://www.linkedin.com/in/ville-lohkovuori/" target="_blank" rel="noopener noreferrer">LinkedIn</a> as a contact channel. My email is 
-              villeloh[at]metropolia.fi. My ideal job would be in the VR/AR space, but any offers that pique my interest will be considered.</p>
+              <p>My ideal job would be in the mobile/VR/AR space (I've published a mobile AR game on the Google Play Store with a friend of mine), 
+              but any offers that pique my interest will be considered.</p>
+              <br></br>
+              <p>I consider creative thinking and strong English/Finnish skills as my special talents;
+              I studied English-Finnish translation in Turku University (2010-2012). To showcase this talent, 
+              the texts on this introduction page are a little bit longer than might be usual.</p>
+              <br></br>
+              <p>I prefer <a href="https://www.linkedin.com/in/ville-lohkovuori/" target="_blank" rel="noopener noreferrer">LinkedIn</a> as a contact channel. My email is villeloh[at]metropolia.fi.</p>
               <br></br>
               <p>Here is a link to my <a href="https://github.com/villeloh" target="_blank" rel="noopener noreferrer">Github profile</a>, and here are some of the technologies that I've studied so far:</p>
             </div>,
@@ -128,11 +139,10 @@ const Texts = {
         <p>I consider Android Studio to be my core expertise; I understand most concepts (Activity, Fragment, Intent, Context, MVP, etc) , 
         and can utilize them in building applications. I got my first taste of Kotlin this Fall, and I have to say that it's 
         my favorite programming language so far. We worked as a two-man team to build a mobile AR game with the help of 
-        Google's AR Core library.</p> 
+        Google's AR Core library, and have since published in on the Google Play Store (under the name AR Invaders).</p> 
         <br></br>
-        <p>The version of the game that we returned to Metropolia is downloadable from my github ('AR Invaders'); 
-        we've since continued development and will be (informally) demoing the 'upgraded' app at the Pre-Slush XR Match Up 2018 event 
-        on December 3rd.</p>
+        <p>The version of the game that we returned to Metropolia is available for view in my github ('AR Invaders'); 
+        we've since continued development and improved the code on multiple fronts.</p>
         </div>, false]],
         ['js', ['Javascript, Node.js (+Express.js), React, React Native', <div className="text-area">
         <p>Although I wouldn't be so bold as to title myself 'full stack developer' quite yet, I've gotten familiar enough 
@@ -144,13 +154,13 @@ const Texts = {
         it's quite similar to 'plain' React.</p>
         </div>, false]],
         ['java_REST', ['Java (8/9), JavaEE, REST, API use / creation', <div className="text-area">
-        <p>Last year (2017) I built a fairly monstrous backend with JavaEE; I've since read a few books about Java 
+        <p>In 2017 I built a fairly monstrous backend with JavaEE; I've since read a few books about Java 
         development ('Effective Java', 'Java Concurrency in Practice'). Using API:s is of course fairly trivial as such, but I understand 
         enough about the principles of REST that I can also plan and build them to some extent. My Achilles heel 
         are currently security issues, as I haven't had the time to study them in-depth quite yet.</p>
         </div>, false]],
         ['sparql', ['SPAQRL / SQL', <div className="text-area">
-        <p>At the moment I'm working on a school project for a company; it's a mobile app that uses 
+        <p>During Fall of 2018, we did a school project for a Finnish company; it's a mobile app that uses 
         the SPAQRL database-query language for fetching images. Although SPARQL is pretty different from 
         'plain' SQL, I still remember a fair bit about that as well from previous projects.</p>
         </div>, false]],
@@ -178,7 +188,7 @@ const Texts = {
         passion that makes you wait eagerly for the next working day. All said, a VR/AR game project can be considered an ideal 
         fit for me.</p>
         </div>, false]],
-        ['otherStrengths', ['Other Strengths: Analytical Skills, Writing, English, Physical Fitness', <div className="text-area">
+        ['otherStrengths', ['Other Strengths: English, Analytical Skills, Writing, Physical Fitness', <div className="text-area">
         <p>As is evident from browsing this page, I can express myself clearly and concisely in both Finnish and English, 
         without typos etc. I studied English translation in Turku University for two years (2010-2012), and I've 
         been writing (and reading) as a hobby ever since grade school.</p>

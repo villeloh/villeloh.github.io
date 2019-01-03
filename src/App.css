@@ -4,7 +4,7 @@
 }
 
 html {
-  background-image: url(/fire.png);
+  background-color: #00001F;
   background-size: cover;
 }
 
@@ -41,7 +41,7 @@ a {
 
 .flag-holder {
 
-	background-color: rgb(8, 82, 241);
+	background-color: rgb(59, 151, 236);
 	padding: 0.2rem;
   width: 15%;
   min-width: 70px;

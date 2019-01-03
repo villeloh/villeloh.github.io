@@ -18,14 +18,21 @@ class App extends Component {
 
     // console.log("react version: " + React.version); => 16.6.3
 
+    this.appRef = React.createRef();
     this.state = {
 
       texts: this.LANGUAGE.ENG
     }
+  } // constructor
+
+  componentDidMount = () => {
+
+    const appNode = this.appRef.current;
+    appNode.height = window.height;
   }
 
   // passed down all the way to individual InfoItem components
-  _toggleInfoItemVisibility = (mapKey, isCurrentlyVisible) => {
+  toggleInfoItemVisibility = (mapKey, isCurrentlyVisible) => {
 
     let texts = this.state.texts
     let item = texts.body.get(mapKey) // array of the form ['headline', 'body', isVisible]
@@ -33,10 +40,10 @@ class App extends Component {
     texts.body.set(mapKey, item)
 
     this.setState({ texts: texts })
-  } // _toggleInfoItemVisibility
+  } // toggleInfoItemVisibility
 
   // takes either of the two values in the LANGUAGE enum
-  _toggleLanguage = (languageChoice) => {
+  toggleLanguage = (languageChoice) => {
 
     if (languageChoice === this.state.texts) return;
 
@@ -44,19 +51,19 @@ class App extends Component {
 
       texts: languageChoice
     })
-  } // _toggleLanguage
+  } // toggleLanguage
 
   render() {
     return (
-      <div className="App">
+      <div className="App" ref={this.appRef} >
         <div className="App-header">
-          <IntroBox texts={this.state.texts.intro} toggleLanguage={this._toggleLanguage} languageEnum={this.LANGUAGE} />
+          <IntroBox texts={this.state.texts.intro} toggleLanguage={this.toggleLanguage} languageEnum={this.LANGUAGE} />
         </div>
-        <ItemContainer textMap={this.state.texts.body} toggleItemVisibility={this._toggleInfoItemVisibility} />
+        <ItemContainer textMap={this.state.texts.body} toggleItemVisibility={this.toggleInfoItemVisibility} />
         <Footer />
       </div>
     );
-  }
-}
+  } // render
+} // App
 
 export default App;
