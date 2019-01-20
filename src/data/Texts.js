@@ -95,17 +95,10 @@ const Texts = {
         vuonna 2013 ja Travemündesta Tukholmaan vuoden 2018 kesällä.</p>
         </div>, false]],
         ['weakPoints', ['Heikkoudet(?)', <div className="text-area">
-        <p>Tiimipelaamista kun aina niin kovasti näissä hauissa painotetaan, niin todetaan nyt ilman sarvia ja hampaita, 
-        että teen mieluiten hommia yksin pimeässä kammiossa stereotyyppisen 'old school sankariohjelmoijan' tapaan.</p>
-        <br></br>
-        <p>Kuitenkin kouluprojektien parissa on käynyt selväksi, että toisen ihmisen tuoreesta näkökulmasta tuleva palaute 
-        / ongelmanratkaisu säästää usein uskomattomia määriä aikaa ja vaivaa. Kunhan tiimi on siis vapaa päällepäsmäreistä 
-        ja perässähiihtäjistä, ei minulla ole sen osana toimimisessa ongelmaa -- olettaen, että aikaa jää myös rauhalliseen 
-        soolotyöskentelyyn aina silloin tällöin.</p>
-        <br></br>
-        <p>Tämä 'tunnustus' nyt ehkä rajoittaa työllistymistä joihinkin firmoihin, mutta hei: 
-        en minä niissä olisi kauaa viihtynytkään. Ja tuleepahan samalla selväksi viimeinen muttei vähäisin vahvuuteni 
-        eli usein oman nahan uhallakin toteutuva rehellisyys.</p>
+        <p>Olen kyllä hyvä tiimipelaaja, mutta vain oikean tiimin kanssa. En pidä pomottajista tai laiskottelijoista.
+Olen myös luonteeltani sen verran introvertti, että tarvitsen silloin tällöin omaa aikaa; saan usein parhaat 
+(ja huonoimmat) ideani ajatellessani omassa rauhassa. Ideoiden työstäminen muiden kanssa pudottaa mädät 
+omenat joukosta ja kiillottaa helmet, joten tiimityö sinänsä ei ole minulle ongelma.</p>
         </div>, false]]
       ] // body array
     ) // body
@@ -197,16 +190,10 @@ const Texts = {
         2013, and from Travemünde to Stockholm in the Summer of 2018.</p>
         </div>, false]],
         ['weakPoints', ['Weak Points(?)', <div className="text-area">
-        <p>People always point out that they're looking for a team player, so I'll just come out and say that I prefer to 
-        work in my own dark chamber like the stereotypical 'old school hero programmer'.</p>
-        <br></br>
-        <p>However, during school projects it's become painfully clear that another person's fresh perspective is often 
-        invaluable when it comes to reflection and solving problems in a timely and efficient manner. So, as long as 
-        there are no moochers or people who enjoying bossing others around on the team, I can function just fine as 
-        a part of it -- provided that I can have some 'chamber time' every now and then.</p>
-        <br></br>
-        <p>I realize that this 'confession' might turn off some companies, but then those wouldn't have been a good fit 
-        for me anyway. And it serves to demonstrate the last but not least of my strong points: raw honesty even in the face of Armageddon.</p>
+        <p>While I can be a valuable team-member due to my constant flow of new ideas, it requires the right kind of team mates.
+I don't take well to bossy types, nor slackers. Also, being an introvert by nature, I require some 'down time' when 
+I'm thinking and working by myself (this is when I often have my best -- and worst -- ideas). Brainstorming with others 
+helps to eliminate the bad apples and polish the pearls (so to speak), so the concept of teamwork is not a bogeyman to me, as such.</p>
         </div>, false]]
       ] // body array
     ) // body
